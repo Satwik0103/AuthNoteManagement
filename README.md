@@ -1,10 +1,10 @@
-Project Auth Note Management
+**Project Auth Note Management**
 
 This project comprises two modules:
 1 Auth Management
 2 Note Management
 
-Technologies Used
+**Technologies Used**
 Framework: Express.js
 Database: MongoDB
 Authorization: JWT Token
@@ -13,8 +13,16 @@ Rate Limiter: Applied with the following settings:
 windowMs: 15 * 60 * 1000 (15 minutes)
 max: 100 (limit each IP to 100 requests per windowMs)
 
-Getting Started
-API DETAILS
+**Getting Started**
+1-Install Dependencies
+npm install
+2-Start Server
+npm start
+3-running Tests
+npm run test
+
+
+**API DETAILS**
 API-SIGN UP 
 url-localhost:3039/api/auth/signup
 RequestBody-
